@@ -1,0 +1,166 @@
+*{
+    margin: 50px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    background-color: rgb(209, 212, 37);
+}
+.banner{
+    width: 500%;
+    height:10vh;
+}
+
+.banner .fit{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    object-fit: cover;
+}
+h1{
+    
+    font-size: 6em;
+    font-family: "Arvo" , cursive;
+    text-shadow: 7px 0 rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(241, 14, 14);
+}
+
+
+.Sa{
+    background-image: url("assets/images/tom1.png");
+}
+.Re{
+    background-image: url("assets/images/tom2.png");
+}
+.Ga{
+    background-image: url("assets/images/tom3.png");
+}
+.Ma{
+    background-image: url("assets/images/tom4.png");
+}
+.Pa{
+    background-image: url("assets/images/snare.png");
+}
+.Dha{
+    background-image: url("assets/images/crash.png");
+}
+.Ni{
+    background-image: url("assets/images/kick.png");
+}
+
+.Sa{
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    font-family: "Arvo" , cursive;
+    font-weight: 500;
+    color:rgb(240, 23, 7);
+    outline: none;
+    border: 10px solid rgb(2, 69, 255);
+    margin: 10px;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+    text-shadow: 5px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.Re{
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    font-family: "Arvo" , cursive;
+    font-weight: 500;
+    color:rgb(42, 7, 240);
+    outline: none;
+    border: 10px solid rgb(0, 250, 42);
+    margin: 10px;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+    text-shadow: 5px 0 rgb(10, 3, 3);
+    border-radius: 15px;
+
+}
+.Ga{
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    font-family: "Arvo" , cursive;
+    font-weight: 500;
+    color:rgb(240, 7, 162);
+    outline: none;
+    border: 10px solid rgb(5, 247, 255);
+    margin: 10px;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+    text-shadow: 5px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.Ma{
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    font-family: "Arvo" , cursive;
+    font-weight: 500;
+    color:rgb(7, 213, 240);
+    outline: none;
+    border: 10px solid rgb(3, 255, 58);
+    margin: 10px;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+    text-shadow: 5px 0 rgb(8, 4, 4);
+    border-radius: 15px;
+}
+.Pa{
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    font-family: "Arvo" , cursive;
+    font-weight: 500;
+    color:rgb(170, 240, 7);
+    outline: none;
+    border: 10px solid rgb(25, 0, 255);
+    margin: 10px;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+    text-shadow: 5px 0 rgb(10, 3, 3);
+    border-radius: 15px;
+}
+.Dha{
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    font-family: "Arvo" , cursive;
+    font-weight: 500;
+    color:rgb(240, 197, 7);
+    outline: none;
+    border: 10px solid rgba(0, 248, 62, 0.993);
+    margin: 10px;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+    text-shadow: 5px 0 rgb(7, 1, 1);
+    border-radius: 15px;
+}
+.Ni{
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    font-family: "Arvo" , cursive;
+    font-weight: 500;
+    color:rgb(135, 7, 240);
+    outline: none;
+    border: 10px solid rgb(255, 8, 201);
+    margin: 10px;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+    text-shadow: 5px 0 rgb(7, 0, 0);
+    border-radius: 15px;
+}
