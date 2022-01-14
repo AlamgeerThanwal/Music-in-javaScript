@@ -1,10 +1,20 @@
-*{
-    margin: 50px;
-    padding: 0px;
-}
 body{
     text-align: center;
-    background-color: rgb(209, 212, 37);
+    background-image: url(assets/images/wallpaper2you_413825.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+.welcome{
+    font-size: 2em;
+    font-family: "Arvo" , cursive;
+    text-shadow: 2px 0 rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(241, 14, 14);
 }
 .banner{
     width: 500%;
@@ -29,29 +39,29 @@ h1{
 }
 
 
-.Sa{
+.s{
     background-image: url("assets/images/tom1.png");
 }
-.Re{
+.r{
     background-image: url("assets/images/tom2.png");
 }
-.Ga{
+.g{
     background-image: url("assets/images/tom3.png");
 }
-.Ma{
+.m{
     background-image: url("assets/images/tom4.png");
 }
-.Pa{
+.p{
     background-image: url("assets/images/snare.png");
 }
-.Dha{
+.d{
     background-image: url("assets/images/crash.png");
 }
-.Ni{
+.n{
     background-image: url("assets/images/kick.png");
 }
 
-.Sa{
+.s{
     width: 150px;
     height: 150px;
     font-size: 4rem;
@@ -67,7 +77,7 @@ h1{
     text-shadow: 5px 0 rgb(0, 0, 0);
     border-radius: 15px;
 }
-.Re{
+.r{
     width: 150px;
     height: 150px;
     font-size: 4rem;
@@ -84,7 +94,7 @@ h1{
     border-radius: 15px;
 
 }
-.Ga{
+.g{
     width: 150px;
     height: 150px;
     font-size: 4rem;
@@ -100,7 +110,7 @@ h1{
     text-shadow: 5px 0 rgb(0, 0, 0);
     border-radius: 15px;
 }
-.Ma{
+.m{
     width: 150px;
     height: 150px;
     font-size: 4rem;
@@ -116,7 +126,7 @@ h1{
     text-shadow: 5px 0 rgb(8, 4, 4);
     border-radius: 15px;
 }
-.Pa{
+.p{
     width: 150px;
     height: 150px;
     font-size: 4rem;
@@ -132,7 +142,7 @@ h1{
     text-shadow: 5px 0 rgb(10, 3, 3);
     border-radius: 15px;
 }
-.Dha{
+.d{
     width: 150px;
     height: 150px;
     font-size: 4rem;
@@ -148,7 +158,7 @@ h1{
     text-shadow: 5px 0 rgb(7, 1, 1);
     border-radius: 15px;
 }
-.Ni{
+.n{
     width: 150px;
     height: 150px;
     font-size: 4rem;
@@ -163,4 +173,9 @@ h1{
     background-color: white;
     text-shadow: 5px 0 rgb(7, 0, 0);
     border-radius: 15px;
+}
+.pressed{
+    box-shadow: 0 20px 50px 0 #ff0000;
+    opacity: 0.9;
+    
 }

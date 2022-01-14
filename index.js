@@ -7,12 +7,14 @@ function () {
     console.log(this);
     var buttonInnerHTML = this.innerHTML;
     makeSound(buttonInnerHTML);
+    buttonAnimation(buttonInnerHTML);
 });
 } 
 //Keyboard Keypress
 document.addEventListener("keypress", function(event){
     console.log(event);
     makeSound(event.key);
+    buttonAnimation(event.key);
 });
 
 function makeSound(key) {
@@ -47,5 +49,17 @@ function makeSound(key) {
             break;
         default:
             console.log(buttonInnerHTML);
+            break;
     }
+}
+function buttonAnimation(currentkey){
+    var activeButton = document.querySelector("." + currentkey);
+    console.log(activeButton);
+   activeButton.classList.add("pressed");
+
+  setTimeout(function(){
+      activeButton.classList.remove("pressed");
+  },100);
+                
+    
 }
